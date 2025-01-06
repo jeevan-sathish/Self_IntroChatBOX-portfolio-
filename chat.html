@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+</head>
+<body>
+   <div class="container">
+   <div id="box">
+        <div class="demo_message">
+            <h3> <span style="color: sienna;">Hello!</span>  this is Jeevan S</h3>
+            <button style="width: 150px;height: 30px;border: 1px dotted gray;
+             border-radius: 30px;background-color:
+              transparent;color: rgb(98, 93, 93);
+              " onclick="show()">Don't Doubt</button>
+        </div>
+   </div>
+<div class="search_field">
+    <div class="input_wrap">
+        <input type="text" name="question" id="input" onkeydown="keyEnter(event)">
+        <button class="btn" id="sub" onclick="createChat()" >↑</button>
+    </div>
+    
+</div>
+
+</div>
+</body>
+</html>
